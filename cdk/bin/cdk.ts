@@ -45,4 +45,4 @@ new KinesisFirehoseStack(app, "MythicalMysfits-KinesisFirehose", {
     api: apiGatewayStack.api
 });
 new XRayStack(app, "MythicalMysfits-XRay");
-new SageMakerStack(app, "MythicalMysfits-SageMaker");
+// new SageMakerStack(app, "MythicalMysfits-SageMaker");
