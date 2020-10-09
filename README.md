@@ -3,7 +3,7 @@
 This repo provides an all in one deployment of aws's modern application workshop [Mythical Mysfits](https://github.com/aws-samples/aws-modern-application-workshop).
 
 Specifically this repo will deploy all modules (1-7) of the python-cdk branch with minor alterations.
-**The 7th module will need manual editing in order to become functional. Please follow the module-7 instructions to set REPLACE_ME_SAGEMAKER_ENDPOINT in the lambda-recommendations service**
+~~**The 7th module will need manual editing in order to become functional. Please follow the module-7 instructions to set REPLACE_ME_SAGEMAKER_ENDPOINT in the lambda-recommendations service**~~ **sagemaker removed from deployment for simplicity**
 
 # Setup
 _We will assume that you have an aws profile setup. Specific profiles can be specified by passing `--profile=profile_name` to any cdk command._
